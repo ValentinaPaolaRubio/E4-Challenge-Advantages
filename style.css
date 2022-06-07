@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --blue:#566981;
+    --green:#6da67a;
+    --white:#f7f7f7;
+    --bold:900;
+    --medium:700;
+    --regular:400;
+    --thin:300;
+}
+body{
+    width: 100vw;
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+*img{
+    width: 100%;
+    height: auto;
+}
+.advantages-section{
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 2rem;
+
+}
+.advantages-section h1{
+    color: #74ebd5;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: var(--medium);
+    text-transform: uppercase;
+    margin:2rem ;
+}
+.advantages-section h3{
+    color: var(--white);
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+    font-weight: var(--regular);
+}
+.advantages-section p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--white);
+    max-width: 300px;
+   
+}
+.info-card{
+    width: 60%;
+    margin-top: 2rem;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:2rem 0 2rem 0;
+}
+.pillars-section{
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 2rem;
+} 
+.pillars-section h2{
+    color: var(--white);
+    font-weight: var(--bold);
+    font-size: 3rem;
+    text-align: center;
+    margin:2rem 0;
+}
+.pillars-section p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--white);
+    max-width: 300px;
+    margin:1rem;
+}
+.pillars-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+@media(min-width:1024px){
+    .advantages-section{
+        padding-bottom: 0;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        border-radius: 20px;
+    }
+    .advantages-section p{
+        max-width: 800px;
+        margin:2rem 2rem;
+    }
+  
+}
+
+
