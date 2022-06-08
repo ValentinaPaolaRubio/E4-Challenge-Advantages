@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 :root{
-    --blue:#566981;
-    --green:#6da67a;
+    --blue:#D7EFF9;
+    --green:#DEF9EA;
     --white:#f7f7f7;
     --bold:900;
     --medium:700;
@@ -17,23 +17,24 @@ body{
     width: 100vw;
     max-width: 100%;
     font-family: "Poppins", sans-serif;
+    
+    
 }
 *img{
     width: 100%;
     height: auto;
 }
+
 .advantages-section{
-    background: #43C6AC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 2rem;
+    background-image: url("./imagenes/fondo2.webp");
+    background-repeat: no-repeat;
+    background-size: 1500px 1500px;
+    padding: 1rem;
 
 }
+
 .advantages-section h1{
-    color: #74ebd5;  /* fallback for old browsers */
-    color: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-    color: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
+    color:var(--green);
     font-size: 3rem;
     text-align: center;
     font-weight: var(--medium);
@@ -71,14 +72,13 @@ body{
     margin:2rem 0 2rem 0;
 }
 .pillars-section{
-    background: #1D976C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    padding: 2rem;
+    background-image: url("./imagenes/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    padding: 1rem;
 } 
 .pillars-section h2{
-    color: var(--white);
+    color: var(--blue);
     font-weight: var(--bold);
     font-size: 3rem;
     text-align: center;
